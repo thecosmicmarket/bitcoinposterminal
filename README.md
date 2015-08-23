@@ -85,6 +85,8 @@ Application icons are designed by Freepik.
 
 This app was created using Google App Builder and run on the tablet computer in kiosk mode. It waits until it sees the total line in the broadcast and when this line is seen it parses the total and show the amount due with a button for payment. When the button is pressed it calls out to coinbase using their API all in javascript to get what they call checkout embed code. Once we have the embed code it creates the a new url and updates webview to show the iframe coinbase web page for payment. Once the payment is complete the iframe updates and show the amount that has been recieved. Knowing this the cashier enters the sale just as if it was a regular cash trasaction.
 
+Total time to write this code was 8 hours.
 
+Please feel free to use at your own risk. 
 
 
