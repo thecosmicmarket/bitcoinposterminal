@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-csp>
+<head>
+  <title>CoinbaseMerchent</title>
+  
+  <link rel="stylesheet" href="angular-material.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body ng-controller="appController" ng-class="app.backgroundClass">
+  
+  
+
+<div layout="column" layout-align="center center" style="height: 100%" flex>
+  
+    <img src="opengraph.png" height="50%" ng-if="app.showDefaultScreen">
+    
+    <div ng-if="app.showPaymentButton" style="text-align: center;">
+        <div class="md-display-4" style="color: #fff; font-size: 16em;">${{app.totalamount}}</div>
+        <md-button ng-click="activateCoinbaseFrame()" class="md-raised md-primary md-cornered" style="font-size: 3em; padding: 20px; padding-right: 20px; padding-left: 35px; margin-top: 85px;"> 
+        <img src="opengraph.png" style="margin-bottom: -21px; z-index: 1000000; position: static; left: 0; margin-right: 8px; height: 52px;">
+        Pay with bitcoin! </md-button>
+    </div>
+    
+    <webview  ng-if="app.showCoinbaseFrame" id="coinbase" src="" 
+     height="90%" width="95%" style="height: 90%; width: 95%; overflow: hidden;" allowtransparency="true" frameborder="0"></webview>
+    
+</div>
+
+
+
+
+
+
+  <script src="config.js"></script>
+  
+     <!-- Angular Material Dependencies -->
+    <script src="angular.min.js"></script>
+    <script src="angular-animate.min.js"></script>
+    <script src="angular-aria.min.js"></script>
+    <script src="hmac-sha256.js"></script>
+
+
+    <!-- Angular Material Javascript now available via Google CDN; version 0.10 used here -->
+    <script src="angular-material.min.js"></script>
+    
+    <!-- Load the application related javascrip -->
+    
+    <script src="app.js"></script>
+  
+  
+</body>
+</html>

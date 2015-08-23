@@ -1,0 +1,80 @@
+08/18/15 22:11:47 101 ID CHECK SKIPPED
+
+main.js:34 08/18/15 22:11:47 101 %  MARLBORO SOUTHERN CU   1        5.76 
+
+main.js:34 08/18/15 22:12:02 101 %%          Bic Lighter   1        1.79 
+
+main.js:34 08/18/15 22:12:07 101                       TOTAL        7.83 
+
+main.js:34 08/18/15 22:12:21 101                       DEBIT        7.83 
+
+main.js:34 08/18/15 22:12:21 101 ST#  F0001 TILL XXXX DR# 1 TRAN# 1015206
+main.js:34 08/18/15 22:12:21 101 CSH: HARIS             08/18/15 22:12:21
+
+main.js:34 08/18/15 22:12:37 101             UNLD CA #03   7       -0.16 
+
+main.js:34 08/18/15 22:12:38 101                       TOTAL       -0.16 
+
+main.js:34 08/18/15 22:12:39 101                        CASH       -0.16 
+
+main.js:34 08/18/15 22:12:39 101 ST#  F0001 TILL XXXX DR# 1 TRAN# 1015207
+main.js:34 08/18/15 22:12:39 101 CSH: HARIS             08/18/15 22:12:39
+
+main.js:34 08/18/15 22:13:12 101 ID CHECK SKIPPED
+
+main.js:34 08/18/15 22:13:12 101 %%           OIL BURNER   1        2.99 
+
+main.js:34 08/18/15 22:13:15 101 %%           OIL BURNER   1        2.99 
+
+main.js:34 08/18/15 22:13:22 101 %% LIGHTER BIC CHILD GU   1        1.49 
+
+main.js:34 08/18/15 22:13:27 101                       TOTAL        6.90 
+
+main.js:34 08/18/15 22:13:27 101                        CASH       20.00 
+
+main.js:34 08/18/15 22:13:27 101 ST#  F0001 TILL XXXX DR# 1 TRAN# 1015208
+main.js:34 08/18/15 22:13:27 101 CSH: HARIS             08/18/15 22:13:27
+
+main.js:34 08/18/15 22:14:46 101 %%           COKE 16 OZ   1        1.19 
+
+main.js:34 08/18/15 22:15:10 101 %%           COKE 16 OZ   1        1.19 
+
+main.js:34 08/18/15 22:15:28 101 ID CHECK SKIPPED
+
+main.js:34 08/18/15 22:15:28 101 %%           OIL BURNER   1        2.99 
+
+main.js:34 08/18/15 22:15:29 101 %%           OIL BURNER   1        2.99 
+
+main.js:34 08/18/15 22:15:35 101                       TOTAL        7.44 
+
+main.js:34 08/18/15 22:15:42 101                      CREDIT        7.44 
+
+main.js:34 08/18/15 22:15:42 101 ST#  F0001 TILL XXXX DR# 1 TRAN# 1015209
+main.js:34 08/18/15 22:15:42 101 CSH: HARIS             08/18/15 22:15:42
+
+main.js:34 08/18/15 22:16:47 101 %% LIGHTER BIC CHILD GU   1        1.49 
+
+main.js:34 08/18/15 22:16:52 101                       TOTAL        1.58 
+
+main.js:34 08/18/15 22:17:03 101 VOID TICKET 1015210
+
+main.js:34 08/18/15 22:17:04 101 ST#  F0001 TILL XXXX DR# 1 TRAN# 1015210
+main.js:34 08/18/15 22:17:04 101 CSH: HARIS             08/18/15 22:17:04
+
+main.js:34 08/18/15 22:17:47 101 %% CIGAR WRAP BLUE BERR   1        0.99 
+
+main.js:34 08/18/15 22:17:52 101                       TOTAL        1.05 
+
+main.js:34 08/18/15 22:17:52 101                        CASH        2.00 
+
+main.js:34 08/18/15 22:17:52 101 ST#  F0001 TILL XXXX DR# 1 TRAN# 1015211
+main.js:34 08/18/15 22:17:52 101 CSH: HARIS             08/18/15 22:17:52
+
+main.js:34 08/18/15 22:18:07 101 %%          HALF G MILK   1        2.99 
+
+main.js:34 08/18/15 22:18:18 101                       TOTAL        3.18 
+
+main.js:34 08/18/15 22:18:18 101                        CASH       20.00 
+
+main.js:34 08/18/15 22:18:18 101 ST#  F0001 TILL XXXX DR# 1 TRAN# 1015212
+main.js:34 08/18/15 22:18:18 101 CSH: HARIS             08/18/15 22:18:18

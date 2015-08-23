@@ -1,0 +1,44 @@
+
+
+
+.hit-the-floor {
+	color: #000;
+	font-family: "Arial";
+  text-shadow:
+   -2px -2px 0 #fff,  
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+     2px 2px 0 #fff;
+	font-size: 60px;
+}
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.colorCycle {
+  animation: colorchange 40s; 
+  animation-iteration-count:infinite;
+}
+
+@keyframes colorchange
+{
+  0%   {background: #99b433;}
+  25%  {background: #ff0097;}
+  50%  {background: #00aba9;}
+  75%  {background: #2d89ef;}
+  100% {background: #ffc40d;}
+}
+
+
+.backgroundgray {
+    background-color: #004d40;
+}
+
+#coinbase * {
+  overflow: hidden;
+  
+}

@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "CoinbaseMerchent",
+  "short_name": "CoinbaseMerchent",
+  "description": "",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": [
+            "background.js"
+            ]
+    }
+  },
+    "sockets": {
+    "udp": {
+      "bind": "*",
+      "send": "*",
+      "multicastMembership": ""
+    }
+  },
+  "kiosk_enabled":true,
+  "permissions": [ "webview","storage", "https://api.coinbase.com/v2/checkouts", "https://www.coinbase.com/*",
+      "power","geolocation","pointerLock","system.display"]
+
+}
