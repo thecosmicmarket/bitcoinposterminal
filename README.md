@@ -51,5 +51,40 @@ The cash register broadcasts over udp on "230.0.0.1" port 14001. This is just pl
 
 ## Picture are worth a 1000 words.
 
+<img src="https://raw.githubusercontent.com/thecosmicmarket/bitcoinposterminal/master/assets/pipo.jpg" width="400">
+
+This is great windows 8.1 tablet enclosed is a case that says make is a bitcoin terminal and it can be found for about $100 online.
+
+<img src="https://raw.githubusercontent.com/thecosmicmarket/bitcoinposterminal/master/assets/image7.jpeg" width="400">
+
+Here it is sitting on the counter along with the normal credit card terminal with my boy victor playing as the cashier.
+
+<img src="https://github.com/thecosmicmarket/bitcoinposterminal/blob/master/assets/image5.jpeg" width="400">
+
+The UI design is kept simple as I could. This is a closeup of the payment terminal.
+
+<img src="https://github.com/thecosmicmarket/bitcoinposterminal/blob/master/assets/image3.jpeg" width="400">
+
+After the cashier is done ringing up every thing the customer wants he press "total" key on the cash register and this above screen git display. 
+
+<img src="https://raw.githubusercontent.com/thecosmicmarket/bitcoinposterminal/master/assets/image2.jpeg" width="400">
+
+Pressing the "Pay with bitcoin" button in the screen brings up a webview that is generated using Coinbase checkout api.  The entire process then happens withing the Coinbase IFRAME. When customer is done scanning the qr code and sending the payment cashier manualy enters it into the cash register.
+
+A normal credit card terminal sends the information through the cash register to be processed and in that process it know when the payment is done and clear to next transaction by itself. 
+
+With the bitcoin terminal I was not able to do a direct connection to the pos so the cashier still has the complete the transaction after he knows that the payment has been recieved. 
+
+If there is a kind person who works for Verifone out there that can tell me how I can connect to the POS in a better way I would be happy to make some changes to the code ( Without paying to SDK fee that is :) ". 
+
+Application icons are designed by Freepik.
+
+*If I have used your image and you don't like it please let me know and it will be removed ASAP. As far as I know all the images that I used are public domain.*
+
+## How this app works
+
+This app was created using Google App Builder and run on the tablet computer in kiosk mode. It waits until it sees the total line in the broadcast and when this line is seen it parses the total and show the amount due with a button for payment. When the button is pressed it calls out to coinbase using their API all in javascript to get what they call checkout embed code. Once we have the embed code it creates the a new url and updates webview to show the iframe coinbase web page for payment. Once the payment is complete the iframe updates and show the amount that has been recieved. Knowing this the cashier enters the sale just as if it was a regular cash trasaction.
+
+
 
 
