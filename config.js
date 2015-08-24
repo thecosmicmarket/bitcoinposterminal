@@ -1,4 +1,4 @@
 
-var apiKey = "NZHaJowA9K45obAa";
-var apiSecret = "vW22wMMqkByAFkT8fMUTs0UIXOHbv5g7";
+var apiKey = "NZHaJozA9K45ocAa";
+var apiSecret = "vW22xMMqkByAFkT8fMUTs0UIXOHbs5g7";
 
